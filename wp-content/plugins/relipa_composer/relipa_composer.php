@@ -29,4 +29,5 @@ define( 'RELIPA_COMPOSER_ASSETS_URL', RELIPA_COMPOSER_PLUGIN_URL . '/assets/' );
 define('RELIPA_COMPOSER_TEXT_DOMAIN', 'relipa');
 
 require_once RELIPA_COMPOSER_INCLUDES_DIR . 'plugin_setting.php';
+require_once RELIPA_COMPOSER_INCLUDES_DIR . 'add-css-js.php';
 require_once RELIPA_COMPOSER_INCLUDES_DIR . 'import-element.php';
