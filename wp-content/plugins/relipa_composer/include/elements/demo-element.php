@@ -14,7 +14,8 @@ if ( ! class_exists('Demo_Element')) {
             extract(shortcode_atts(array(
                 'text' => '',
             ), $atts));
-            echo $text;
+            require_once RELIPA_COMPOSER_INCLUDES_DIR . 'elements/demo-element-html.php';
+            echo get_demo_element_html($text);
         }
 
         public function show_element_integrate_vc()
